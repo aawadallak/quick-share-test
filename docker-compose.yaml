@@ -1,0 +1,22 @@
+version: '3.7'
+services:
+  mongo:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: 123456
+      MONGO_INITDB_DATABASE: easyshare
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+    networks:
+      - easy-share-network
+
+networks:
+  easy-share-network:
+    driver: bridge
+
+volumes:
+  easy-share:
+    driver: local
