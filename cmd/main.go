@@ -10,6 +10,7 @@ import (
 func main() {
 
 	config.Init()
+	config.InitLogger()
 	s := server.NewServer()
 
 	svc := usecases.NewService(&repository.FileRepository{}, &repository.DatabaseRepository{})
