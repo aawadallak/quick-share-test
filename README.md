@@ -3,8 +3,6 @@
 
 [![Build & Test](https://github.com/aawadallak/quick-share-test/actions/workflows/test.yml/badge.svg)](https://github.com/aawadallak/quick-share-test/actions/workflows/test.yml)
 
-[![codecov](https://codecov.io/gh/aawadallak/quick-share-test/branch/master/graph/badge.svg)](https://codecov.io/gh/aawadallak/quick-share-test)
-
 [![codecov](https://codecov.io/gh/aawadallak/quick-share-test/branch/main/graph/badge.svg?token=7XKKZXYIT9)](https://codecov.io/gh/aawadallak/quick-share-test)
 
 
