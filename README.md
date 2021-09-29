@@ -1,4 +1,8 @@
+
 [![Lint Go Code](https://github.com/aawadallak/quick-share-test/actions/workflows/go.yml/badge.svg?branch=main)](https://github.com/aawadallak/quick-share-test/actions/workflows/go.yml)
+
+[![Build & Test](https://github.com/aawadallak/quick-share-test/actions/workflows/test.yml/badge.svg)](https://github.com/aawadallak/quick-share-test/actions/workflows/test.yml)
+
 
 ## About the project
 The service aims to serve as an app for quick and hassle-free file sharing. The idea was to generate something that didn't require registration to share a file. Because we often want to send files to other people and this process can be a bit complicated and painful. The proposal has only two limiter
