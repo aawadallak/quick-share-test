@@ -3,8 +3,14 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - '**/README.md'
+      - '**/Makefile'
   pull_request:
       branches: ['*']
+      paths-ignore:
+        - '**/README.md'
+        - '**/Makefile'
       
 jobs:
   lint:
@@ -14,7 +20,7 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v1
         with:
-          go-version: 1.12
+          go-version: 1.17.1
 
       - name: Check out code
         uses: actions/checkout@v1
@@ -32,7 +38,7 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v1
         with:
-          go-version: 1.12
+          go-version: 1.17.1
 
       - name: Check out code
         uses: actions/checkout@v1
@@ -49,7 +55,7 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v1
         with:
-          go-version: 1.12
+          go-version: 1.17.1
 
       - name: Check out code
         uses: actions/checkout@v1
