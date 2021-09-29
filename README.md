@@ -5,6 +5,8 @@
 
 [![codecov](https://codecov.io/gh/aawadallak/quick-share-test/branch/master/graph/badge.svg)](https://codecov.io/gh/aawadallak/quick-share-test)
 
+[![codecov](https://codecov.io/gh/aawadallak/quick-share-test/branch/main/graph/badge.svg?token=7XKKZXYIT9)](https://codecov.io/gh/aawadallak/quick-share-test)
+
 
 ## About the project
 The service aims to serve as an app for quick and hassle-free file sharing. The idea was to generate something that didn't require registration to share a file. Because we often want to send files to other people and this process can be a bit complicated and painful. The proposal has only two limiter
