@@ -3,8 +3,8 @@ package server
 import (
 	"log"
 	"os"
-	"we/server/middlewares"
-	"we/server/routes"
+	"quick_share/server/middlewares"
+	"quick_share/server/routes"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"

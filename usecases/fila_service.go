@@ -3,11 +3,11 @@ package usecases
 import (
 	"fmt"
 	"log"
+	domain "quick_share/domain/interfaces"
+	"quick_share/dto"
+	"quick_share/infra/repository"
+	"quick_share/usecases/compress"
 	"time"
-	"we/domain"
-	"we/dto"
-	"we/infra/repository"
-	"we/usecases/compress"
 )
 
 type FileService struct {

@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
-	"we/domain"
+	"quick_share/domain"
 )
 
 type FileRepository struct{}

@@ -1,7 +1,7 @@
 package dto
 
 import (
-	"we/domain"
+	"quick_share/domain"
 
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )

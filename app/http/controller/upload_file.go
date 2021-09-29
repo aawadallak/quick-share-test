@@ -1,9 +1,9 @@
 package controller
 
 import (
-	"we/dto"
-	"we/infra/repository"
-	"we/usecases"
+	"quick_share/dto"
+	"quick_share/infra/repository"
+	"quick_share/usecases"
 
 	"github.com/gofiber/fiber/v2"
 )

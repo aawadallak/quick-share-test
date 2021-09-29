@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"quick_share/database"
+	"quick_share/domain"
+	"quick_share/dto"
 	"time"
-	"we/database"
-	"we/domain"
-	"we/dto"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"

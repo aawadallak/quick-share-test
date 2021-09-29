@@ -2,7 +2,7 @@ package dto
 
 import (
 	"mime/multipart"
-	"we/domain"
+	"quick_share/domain"
 )
 
 type FileDTO struct {

@@ -1,10 +1,10 @@
 package main
 
 import (
-	"we/config"
-	"we/infra/repository"
-	"we/server"
-	"we/usecases"
+	"quick_share/config"
+	"quick_share/infra/repository"
+	"quick_share/server"
+	"quick_share/usecases"
 )
 
 func main() {

@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"we/app/http/controller"
+	"quick_share/app/http/controller"
 
 	"github.com/gofiber/fiber/v2"
 )
