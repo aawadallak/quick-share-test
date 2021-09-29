@@ -4,8 +4,8 @@ on:
     branches:
       - main
     paths-ignore:
-      - '**/README.md'
-      - '**/Makefile'
+      - 'README.md'
+      - 'Makefile'
   pull_request:
       branches: ['*']
       paths-ignore:
