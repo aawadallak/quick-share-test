@@ -1,4 +1,4 @@
-  FROM golang:alpine AS builder
+FROM golang:alpine AS builder
 
 LABEL maintainer="Alexandre Awadallak <alexandre.awadallak@gmail.com>"
 
